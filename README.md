@@ -1,2 +1,2 @@
-# WaveProgressView
-WaveProgressView is a library to install wave progress-animation for iOS
+# WaveAnimationView
+WaveAnimationView is a library to install wave progress-animation for iOS
