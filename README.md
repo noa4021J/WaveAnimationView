@@ -90,7 +90,7 @@ open func stopAnimation() {
 
 # Options
 
-### Front/Back FillColor
+## Front/Back FillColor
 
 Wave's fillColor is possible to be set fillColors separately.
 ```swift
@@ -101,7 +101,7 @@ Set one Color
 let wave = WaveAnimationView(frame: CGRect, color: UIColor)
 ```
 
-### MaskImage
+## MaskImage
 
 Possible to mask the WaveAnimationView just by setting an image containing Solid and Alpha Areas.
 ```swift
@@ -109,7 +109,7 @@ let wave = WaveAnimationView(frame: CGRect, color: UIColor)
 wave.maskImage = UIImage(named: "image name")
 ```
 
-### Set/GetProgress
+## Set/GetProgress
 
 Progress are set and gotten in the same way as UIProgressView
 
