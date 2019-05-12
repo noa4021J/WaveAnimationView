@@ -98,7 +98,7 @@ public class WaveAnimationView: UIView {
     
     //MARK: Please be sure to call this method at ViewDidDisAppear or deinit in ViewController.
     //If it isn't called, Memory Leaks occurs by Timer
-    open func stopAnimaiton() {
+    open func stopAnimation() {
         timer.invalidate()
     }
     
