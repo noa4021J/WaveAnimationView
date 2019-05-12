@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFBB8D592287C13B00536BEF /* WaveProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */; };
-		BFBB8D5E2287C13B00536BEF /* WaveProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D5D2287C13B00536BEF /* WaveProgressViewTests.swift */; };
-		BFBB8D602287C13B00536BEF /* WaveProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB8D522287C13B00536BEF /* WaveProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFBB8D6A2287C16500536BEF /* WaveProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D692287C16500536BEF /* WaveProgressView.swift */; };
+		BF7CCF222288043800DB7244 /* WaveAnimationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; };
+		BF7CCF232288043800DB7244 /* WaveAnimationView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFBB8D592287C13B00536BEF /* WaveAnimationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; };
+		BFBB8D5E2287C13B00536BEF /* WaveAnimationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D5D2287C13B00536BEF /* WaveAnimationViewTests.swift */; };
+		BFBB8D602287C13B00536BEF /* WaveAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB8D522287C13B00536BEF /* WaveAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBB8D6A2287C16500536BEF /* WaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D692287C16500536BEF /* WaveAnimationView.swift */; };
 		BFBB8DC72287EBE000536BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8DC62287EBE000536BEF /* AppDelegate.swift */; };
 		BFBB8DC92287EBE100536BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8DC82287EBE000536BEF /* ViewController.swift */; };
 		BFBB8DCC2287EBE100536BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCA2287EBE100536BEF /* Main.storyboard */; };
 		BFBB8DCE2287EBE200536BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCD2287EBE200536BEF /* Assets.xcassets */; };
 		BFBB8DD12287EBE200536BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCF2287EBE200536BEF /* LaunchScreen.storyboard */; };
-		BFBB8E0E2287F6CC00536BEF /* WaveProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */; };
-		BFBB8E0F2287F6CC00536BEF /* WaveProgressView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BFBB8D5A2287C13B00536BEF /* PBXContainerItemProxy */ = {
+		BF7CCF242288043800DB7244 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFBB8D462287C13B00536BEF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BFBB8D4E2287C13B00536BEF;
-			remoteInfo = WaveProgressView;
+			remoteInfo = WaveAnimationView;
 		};
-		BFBB8E102287F6CC00536BEF /* PBXContainerItemProxy */ = {
+		BFBB8D5A2287C13B00536BEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFBB8D462287C13B00536BEF /* Project object */;
 			proxyType = 1;
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BFBB8E122287F6CC00536BEF /* Embed Frameworks */ = {
+		BF7CCF262288043800DB7244 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BFBB8E0F2287F6CC00536BEF /* WaveProgressView.framework in Embed Frameworks */,
+				BF7CCF232288043800DB7244 /* WaveAnimationView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,13 +52,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBB8D522287C13B00536BEF /* WaveProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveProgressView.h; sourceTree = "<group>"; };
+		BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBB8D522287C13B00536BEF /* WaveAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveAnimationView.h; sourceTree = "<group>"; };
 		BFBB8D532287C13B00536BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFBB8D582287C13B00536BEF /* WaveProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBB8D5D2287C13B00536BEF /* WaveProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveProgressViewTests.swift; sourceTree = "<group>"; };
+		BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBB8D5D2287C13B00536BEF /* WaveAnimationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationViewTests.swift; sourceTree = "<group>"; };
 		BFBB8D5F2287C13B00536BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFBB8D692287C16500536BEF /* WaveProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveProgressView.swift; sourceTree = "<group>"; };
+		BFBB8D692287C16500536BEF /* WaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationView.swift; sourceTree = "<group>"; };
 		BFBB8DC42287EBE000536BEF /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBB8DC62287EBE000536BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBB8DC82287EBE000536BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8D592287C13B00536BEF /* WaveProgressView.framework in Frameworks */,
+				BFBB8D592287C13B00536BEF /* WaveAnimationView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8E0E2287F6CC00536BEF /* WaveProgressView.framework in Frameworks */,
+				BF7CCF222288043800DB7244 /* WaveAnimationView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +98,8 @@
 		BFBB8D452287C13B00536BEF = {
 			isa = PBXGroup;
 			children = (
-				BFBB8D512287C13B00536BEF /* WaveProgressView */,
-				BFBB8D5C2287C13B00536BEF /* WaveProgressViewTests */,
+				BFBB8D512287C13B00536BEF /* WaveAnimationView */,
+				BFBB8D5C2287C13B00536BEF /* WaveAnimationViewTests */,
 				BFBB8DC52287EBE000536BEF /* Demo */,
 				BFBB8D502287C13B00536BEF /* Products */,
 				BFBB8DD62287EBFD00536BEF /* Frameworks */,
@@ -109,30 +109,30 @@
 		BFBB8D502287C13B00536BEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */,
-				BFBB8D582287C13B00536BEF /* WaveProgressViewTests.xctest */,
+				BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */,
+				BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */,
 				BFBB8DC42287EBE000536BEF /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFBB8D512287C13B00536BEF /* WaveProgressView */ = {
+		BFBB8D512287C13B00536BEF /* WaveAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				BFBB8D522287C13B00536BEF /* WaveProgressView.h */,
-				BFBB8D692287C16500536BEF /* WaveProgressView.swift */,
+				BFBB8D522287C13B00536BEF /* WaveAnimationView.h */,
+				BFBB8D692287C16500536BEF /* WaveAnimationView.swift */,
 				BFBB8D532287C13B00536BEF /* Info.plist */,
 			);
-			path = WaveProgressView;
+			path = WaveAnimationView;
 			sourceTree = "<group>";
 		};
-		BFBB8D5C2287C13B00536BEF /* WaveProgressViewTests */ = {
+		BFBB8D5C2287C13B00536BEF /* WaveAnimationViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				BFBB8D5D2287C13B00536BEF /* WaveProgressViewTests.swift */,
+				BFBB8D5D2287C13B00536BEF /* WaveAnimationViewTests.swift */,
 				BFBB8D5F2287C13B00536BEF /* Info.plist */,
 			);
-			path = WaveProgressViewTests;
+			path = WaveAnimationViewTests;
 			sourceTree = "<group>";
 		};
 		BFBB8DC52287EBE000536BEF /* Demo */ = {
@@ -162,16 +162,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8D602287C13B00536BEF /* WaveProgressView.h in Headers */,
+				BFBB8D602287C13B00536BEF /* WaveAnimationView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BFBB8D4E2287C13B00536BEF /* WaveProgressView */ = {
+		BFBB8D4E2287C13B00536BEF /* WaveAnimationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBB8D632287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveProgressView" */;
+			buildConfigurationList = BFBB8D632287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveAnimationView" */;
 			buildPhases = (
 				BFBB8D4A2287C13B00536BEF /* Headers */,
 				BFBB8D4B2287C13B00536BEF /* Sources */,
@@ -182,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = WaveProgressView;
+			name = WaveAnimationView;
 			productName = WaveProgressView;
-			productReference = BFBB8D4F2287C13B00536BEF /* WaveProgressView.framework */;
+			productReference = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFBB8D572287C13B00536BEF /* WaveProgressViewTests */ = {
+		BFBB8D572287C13B00536BEF /* WaveAnimationViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBB8D662287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveProgressViewTests" */;
+			buildConfigurationList = BFBB8D662287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveAnimationViewTests" */;
 			buildPhases = (
 				BFBB8D542287C13B00536BEF /* Sources */,
 				BFBB8D552287C13B00536BEF /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				BFBB8D5B2287C13B00536BEF /* PBXTargetDependency */,
 			);
-			name = WaveProgressViewTests;
+			name = WaveAnimationViewTests;
 			productName = WaveProgressViewTests;
-			productReference = BFBB8D582287C13B00536BEF /* WaveProgressViewTests.xctest */;
+			productReference = BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BFBB8DC32287EBE000536BEF /* Demo */ = {
@@ -212,12 +212,12 @@
 				BFBB8DC02287EBE000536BEF /* Sources */,
 				BFBB8DC12287EBE000536BEF /* Frameworks */,
 				BFBB8DC22287EBE000536BEF /* Resources */,
-				BFBB8E122287F6CC00536BEF /* Embed Frameworks */,
+				BF7CCF262288043800DB7244 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BFBB8E112287F6CC00536BEF /* PBXTargetDependency */,
+				BF7CCF252288043800DB7244 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BFBB8D492287C13B00536BEF /* Build configuration list for PBXProject "WaveProgressView" */;
+			buildConfigurationList = BFBB8D492287C13B00536BEF /* Build configuration list for PBXProject "WaveAnimationView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFBB8D4E2287C13B00536BEF /* WaveProgressView */,
-				BFBB8D572287C13B00536BEF /* WaveProgressViewTests */,
+				BFBB8D4E2287C13B00536BEF /* WaveAnimationView */,
+				BFBB8D572287C13B00536BEF /* WaveAnimationViewTests */,
 				BFBB8DC32287EBE000536BEF /* Demo */,
 			);
 		};
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8D6A2287C16500536BEF /* WaveProgressView.swift in Sources */,
+				BFBB8D6A2287C16500536BEF /* WaveAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8D5E2287C13B00536BEF /* WaveProgressViewTests.swift in Sources */,
+				BFBB8D5E2287C13B00536BEF /* WaveAnimationViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,15 +322,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BF7CCF252288043800DB7244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFBB8D4E2287C13B00536BEF /* WaveAnimationView */;
+			targetProxy = BF7CCF242288043800DB7244 /* PBXContainerItemProxy */;
+		};
 		BFBB8D5B2287C13B00536BEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFBB8D4E2287C13B00536BEF /* WaveProgressView */;
+			target = BFBB8D4E2287C13B00536BEF /* WaveAnimationView */;
 			targetProxy = BFBB8D5A2287C13B00536BEF /* PBXContainerItemProxy */;
-		};
-		BFBB8E112287F6CC00536BEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFBB8D4E2287C13B00536BEF /* WaveProgressView */;
-			targetProxy = BFBB8E102287F6CC00536BEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -365,6 +365,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -387,6 +388,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -429,6 +431,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -487,7 +490,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WaveProgressView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WaveAnimationView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +517,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WaveProgressView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WaveAnimationView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,7 +613,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFBB8D492287C13B00536BEF /* Build configuration list for PBXProject "WaveProgressView" */ = {
+		BFBB8D492287C13B00536BEF /* Build configuration list for PBXProject "WaveAnimationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFBB8D612287C13B00536BEF /* Debug */,
@@ -619,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBB8D632287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveProgressView" */ = {
+		BFBB8D632287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveAnimationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFBB8D642287C13B00536BEF /* Debug */,
@@ -628,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBB8D662287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveProgressViewTests" */ = {
+		BFBB8D662287C13B00536BEF /* Build configuration list for PBXNativeTarget "WaveAnimationViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFBB8D672287C13B00536BEF /* Debug */,

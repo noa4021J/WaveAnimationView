@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import WaveProgressView
+import WaveAnimationView
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var lapView: UIView!
     
-    var wave: WaveProgressView!
+    var wave: !
     
     override func viewDidLoad() {
         super.viewDidLoad()

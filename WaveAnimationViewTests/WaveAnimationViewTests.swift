@@ -1,15 +1,15 @@
 //
-//  WaveProgressViewTests.swift
-//  WaveProgressViewTests
+//  WaveAnimationViewTests.swift
+//  WaveAnimationViewTests
 //
 //  Created by Syunsuke Nakao on 2019/05/12.
 //  Copyright © 2019 Syunsuke Nakao. All rights reserved.
 //
 
 import XCTest
-@testable import WaveProgressView
+@testable import WaveAnimationView
 
-class WaveProgressViewTests: XCTestCase {
+class WaveAnimationViewTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

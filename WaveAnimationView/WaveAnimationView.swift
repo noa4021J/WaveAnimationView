@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class WaveProgressView: UIView {
+public class WaveAnimationView: UIView {
 
     private let frontWaveLine: UIBezierPath = UIBezierPath()
     private let backWaveLine: UIBezierPath = UIBezierPath()
@@ -28,7 +28,7 @@ public class WaveProgressView: UIView {
     
     private var maskLayer: CALayer?
     
-    //MARK: Possible to mask the WaveProgressView just by setting an image containing Solid and Alpha Areas.
+    //MARK: Possible to mask the WaveAnimationView just by setting an image containing Solid and Alpha Areas.
     open var maskImage: UIImage? {
         didSet {
             //mask
