@@ -1,7 +1,8 @@
-# Overview - WaveAnimationView
 ![WaveAnimationView-header-min](https://user-images.githubusercontent.com/44746730/57581092-7295c580-74ed-11e9-8842-220e8299e34e.png)
 
-WaveAnimationView is a library to install wave progress-animation.
+# Overview - WaveAnimationView
+
+WaveAnimationView is a library to install wave progress-animation.  
 Something looks like below:
 
 | Progress | Loading | Background |
