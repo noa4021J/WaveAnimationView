@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var lapView: UIView!
     
-    var wave: !
+    var wave: WaveAnimationView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
