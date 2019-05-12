@@ -1,6 +1,6 @@
-![WaveAnimationView-header-min](https://user-images.githubusercontent.com/44746730/57581092-7295c580-74ed-11e9-8842-220e8299e34e.png)
-
 # Overview - WaveAnimationView
+
+![WaveAnimationView-header-min](https://user-images.githubusercontent.com/44746730/57581092-7295c580-74ed-11e9-8842-220e8299e34e.png)
 
 WaveAnimationView is a library to install wave progress-animation.  
 Something looks like below:
@@ -10,7 +10,7 @@ Something looks like below:
 | ![sample_1](https://user-images.githubusercontent.com/44746730/57581097-86d9c280-74ed-11e9-99f1-f3d71975d0ca.gif) | ![sample_2](https://user-images.githubusercontent.com/44746730/57581098-86d9c280-74ed-11e9-8683-3b3db94f126d.gif) | ![sample_3](https://user-images.githubusercontent.com/44746730/57581099-86d9c280-74ed-11e9-8ce4-2ccce912b861.gif) |
 
 
-# Instration
+# Installation
 
 WaveAnimationView is available through CocoaPods and Carthage.   
 To install simply add the following line to your Podfile or Cartfile:
