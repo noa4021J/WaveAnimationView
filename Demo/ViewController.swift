@@ -18,16 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        wave = WaveProgressView(frame: CGRect(x: 10, y: 10, width: lapView.frame.width-20, height: lapView.frame.height-20), color: UIColor.blue.withAlphaComponent(0.5))
-        wave.layer.cornerRadius = wave.frame.width/2
-        wave.clipsToBounds = true
-        
-        lapView.layer.cornerRadius = lapView.bounds.width/2
-        lapView.layer.borderColor = UIColor.blue.cgColor
-        lapView.layer.borderWidth = 4
-        lapView.clipsToBounds = true
-        lapView.addSubview(wave)
-        
+        let wave = WaveAnimationView(frame: <#T##CGRect#>, color: <#T##UIColor#>)
+        //superView.addSubView(WaveAnimationView)
         wave.startAnimation()
         
     }

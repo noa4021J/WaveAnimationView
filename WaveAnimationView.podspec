@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.license      = { :type => "MIT", :file => "LICENSE" }
     spec.author       = "mani"
     spec.swift_version = "5.0"
-    spec.platform     = :ios, "12.2"
+    spec.platform     = :ios, "8.0"
     spec.source       = { :git => "https://github.com/maniCreate/WaveAnimationView.git", :tag => "#{spec.version}" }
     spec.source_files  = "WaveAnimationView/**/*.swift"
 end
