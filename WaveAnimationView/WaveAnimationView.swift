@@ -90,7 +90,6 @@ public class WaveAnimationView: UIView {
         let setPoint:CGFloat = CGFloat(min(max(point, 0),1))
         
         self.progress = Float(setPoint)
-        self.xAxis = self.height - self.height*setPoint
     }
     
     

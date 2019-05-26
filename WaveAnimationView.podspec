@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "WaveAnimationView"
-    spec.version      = "1.0.1"
+    spec.version      = "1.0.2"
     spec.summary      = "WaveAnimationView is a library to install wave progress-animation for iOS"
     spec.homepage     = "https://github.com/maniCreate/WaveAnimationView"
     spec.license      = { :type => "MIT", :file => "LICENSE" }
