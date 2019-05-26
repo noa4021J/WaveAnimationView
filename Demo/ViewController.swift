@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let wave = WaveAnimationView(frame: <#T##CGRect#>, color: <#T##UIColor#>)
+        wave = WaveAnimationView(frame: CGRect(origin: .zero, size: lapView.bounds.size), color: UIColor.blue.withAlphaComponent(0.5))
+        lapView.addSubview(wave)
         //superView.addSubView(WaveAnimationView)
         wave.startAnimation()
         
@@ -27,14 +28,17 @@ class ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         
-        wave.stopAnimaiton()
+        wave.stopAnimation()
         
     }
     
     
     @IBAction func slide(_ sender: UISlider) {
         
-        self.wave.setProgress(to: sender.value)
+        wave.setProgress(sender.value)
+        
+        print("aa",sender.value)
+        print("bb",wave.progress)
         
     }
     

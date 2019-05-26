@@ -21,7 +21,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bro-re-FKa">
                                 <rect key="frame" x="48" y="468" width="318" height="31"/>
                                 <connections>
-                                    <action selector="slide:" destination="BYZ-38-t0r" eventType="valueChanged" id="eyG-Lu-h6a"/>
+                                    <action selector="slide:" destination="BYZ-38-t0r" eventType="valueChanged" id="cC8-aU-sIQ"/>
                                 </connections>
                             </slider>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QkG-ZO-qDG">

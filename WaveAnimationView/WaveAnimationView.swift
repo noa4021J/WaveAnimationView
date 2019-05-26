@@ -86,8 +86,11 @@ public class WaveAnimationView: UIView {
     }
     
     //0.0 .. 1.0 are avaliable
-    open func setProgress(to point: Float) {
-        self.xAxis = self.height - self.height*CGFloat(min(max(point, 0),1))
+    open func setProgress(_ point: Float) {
+        let setPoint:CGFloat = CGFloat(min(max(point, 0),1))
+        
+        self.progress = Float(setPoint)
+        self.xAxis = self.height - self.height*setPoint
     }
     
     
