@@ -42,12 +42,14 @@ import UIKit
 import WaveAnimationView
 
 class ViewController: UIViewController {
+
+    var wave: WaveAnimationView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // 1
-        let wave = WaveAnimationView(frame: CGRect, color: UIColor)
+        wave = WaveAnimationView(frame: CGRect, color: UIColor)
         
         //superView.addSubView(WaveAnimationView)
         
