@@ -96,6 +96,7 @@ public class WaveAnimationView: UIView {
     //Start wave Animation
     open func startAnimation() {
         timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(waveAnimation), userInfo: nil, repeats: true)
+        RunLoop.main.add(timer, forMode: .common)
     }
     
     //MARK: Please be sure to call this method at ViewDidDisAppear or deinit in ViewController.
