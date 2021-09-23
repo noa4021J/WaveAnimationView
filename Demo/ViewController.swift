@@ -18,7 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        wave = WaveAnimationView(frame: CGRect(origin: .zero, size: lapView.bounds.size), color: UIColor.blue.withAlphaComponent(0.5))
+        wave = WaveAnimationView(frame: CGRect(origin: .zero, size: CGSize(width: 64, height: 64)), color: UIColor.orange.withAlphaComponent(0.5))
+        wave.waveHeight = 7
+        wave.waveDelay = 300
+        wave.zoom = 0.15
         lapView.addSubview(wave)
         //superView.addSubView(WaveAnimationView)
         wave.startAnimation()

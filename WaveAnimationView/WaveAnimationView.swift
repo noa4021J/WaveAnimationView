@@ -48,6 +48,7 @@ public class WaveAnimationView: UIView {
     
     open var waveHeight: CGFloat = 15.0 //3.0 .. about 50.0 are standard.
     open var waveDelay: CGFloat = 300.0 //0.0 .. about 500.0 are standard.
+    open var zoom: CGFloat = 1.0
     
     open var frontColor: UIColor!
     open var backColor: UIColor!
@@ -134,7 +135,7 @@ public class WaveAnimationView: UIView {
     private func drawSin(path: UIBezierPath, time: CGFloat, delay: CGFloat) {
         
         let unit:CGFloat = 100.0
-        let zoom:CGFloat = 1.0
+        let zoom:CGFloat = self.zoom
         var x = time
         var y = sin(x)/zoom
         let start = CGPoint(x: yAxis, y: unit*y+xAxis)
